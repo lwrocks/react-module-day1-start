@@ -31,9 +31,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1> Hello Ironhackers! </h1>
-        {element}
-        {displayAvatar(user)}
+        <User firstName="Laurel" />
+        <User firstName="Ana" />
       </div>
     );
   }
